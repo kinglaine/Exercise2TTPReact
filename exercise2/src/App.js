@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import IncrementDecrement from './IncrementDecrement';
 
 function App() {
   return (
-    <p>Hello</p>
+    <IncrementDecrement number = {9}></IncrementDecrement>
   );
 }
 
